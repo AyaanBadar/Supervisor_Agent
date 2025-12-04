@@ -7,7 +7,7 @@ from prompts import system_message
 from pydantic_models import PiggyBank
 from utils import analyze_chat_and_scrape
 
-# ✅ Add UNGLI directory to path
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # ✅ Manual Ollama-based response
@@ -53,3 +53,4 @@ async def smart_scrape_companies() -> PiggyBank:
         raise RuntimeError(f"Missing file: {fnf}")
     except Exception as e:
         raise RuntimeError(f"Internal Error: {str(e)}")
+
