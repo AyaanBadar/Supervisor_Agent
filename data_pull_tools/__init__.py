@@ -7,5 +7,5 @@ try:
 except ImportError:
     print("⚠️ Skipping hn_scrape_tool import due to db_utils dependency")
     hn_scrape_tool = None
-
 __all__ = ["scrape_company_website", "generate_product_summary", "hn_scrape_tool"]
+
