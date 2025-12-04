@@ -12,7 +12,6 @@ from data_pull_tools.website_scraper_tool import scrape_company_website
 from data_pull_tools.hacker_news_tool import hn_scrape_tool
 from data_pull_tools.youtube_scraper_tool import generate_product_summary
 from prompts import system_message
-
 # ✅ Load environment variables
 load_dotenv()
 
@@ -103,3 +102,4 @@ async def analyze_chat_and_scrape(chat_data, company_data) -> List[CompanyScrape
 
     except Exception as e:
         raise RuntimeError(f"Failed to process Ollama response: {e}")
+
