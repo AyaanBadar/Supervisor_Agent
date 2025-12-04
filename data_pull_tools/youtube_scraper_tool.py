@@ -1,6 +1,5 @@
 # Updated YouTube scraper to support both 'review' and 'demo/test' videos.
 # We'll default to 'review' in the test file.
-
 import os
 import re
 import json
@@ -197,3 +196,4 @@ async def run_video_processor(product_name: str, focus="review"):
 async def generate_product_summary(input: ProductInput):
     """Search YouTube for product demo/review videos, extract transcripts, and summarize key insights."""
     return await run_video_processor(input.product_name, focus=input.focus)
+
