@@ -16,11 +16,17 @@ WORKING:-
 
 
 
-2) Along with this, companies are given by Google-API which also provides information and works as a affluent vessel of choices for the agent. For instance:
+2)
+A) Along with this, companies are given by Google-API which also provides information and works as a affluent vessel of choices for the agent. For instance:
    
    
 
 <img width="651" height="460" alt="image" src="https://github.com/user-attachments/assets/6ea789ef-15d7-4394-bcf5-1af78ff10897" />
+
+
+B) Also we may also add the description like this too
+
+<img width="927" height="186" alt="image" src="https://github.com/user-attachments/assets/affb8457-f9c4-45a3-8ca9-dedb193c0218" />
 
 
 
@@ -72,4 +78,4 @@ On the technical side, the agent combines multiple tools into a seamless pipelin
 
 From a business perspective, the beauty of this system lies in how it reduces noise and delivers relevance. Instead of overwhelming the user with endless company names or unfiltered data, it carefully curates a list of companies that actually align with the product or service being pitched. This not only saves time but also increases the chances of meaningful connections, since every recommendation is backed by a blend of context, evidence, and multiple verification points.
 
-In essence, the Supervisor Agent bridges the gap between data and decision-making. It takes what could have been an overwhelming flood of information and distills it into focused opportunities. By combining technical precision with business relevance, it empowers users to approach markets more strategically, making the process of matching products with the right companies both efficient and insightful.
+In essence, the Supervisor Agent bridges the gap between data and decision-making. It takes what could have been an overwhelming flood of information and distills it into focused opportunities. By combining technical precision with business relevance, it empowers users to approach markets more strategically, making the process of matching products with the right companies both efficient and insightful in this brightful scenario
