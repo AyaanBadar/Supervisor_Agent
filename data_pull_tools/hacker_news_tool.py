@@ -1,5 +1,4 @@
 # hacker_news_tool.py
-
 import asyncio
 import httpx
 from pydantic import BaseModel, HttpUrl
@@ -84,3 +83,4 @@ async def hn_scrape_logic(input: HNScrapeInput) -> HNScrapeOutput:
 async def hn_scrape_tool(input: HNScrapeInput) -> HNScrapeOutput:
     """Searches Hacker News for articles mentioning a given company."""
     return await hn_scrape_logic(input)
+
