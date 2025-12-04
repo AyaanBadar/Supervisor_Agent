@@ -11,7 +11,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import re
 
-
 class WebsiteContent(BaseModel):
     url: Optional[HttpUrl]
     company_name: str
@@ -67,3 +66,4 @@ class WebsiteExtractor:
             text_content=text_blocks,
             links=links
         )
+
