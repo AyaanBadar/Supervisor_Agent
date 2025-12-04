@@ -5,7 +5,6 @@ import json
 import logging
 logging.getLogger("absl").setLevel(logging.ERROR)
 
-
 async def main():
     try:
         # Load input files
@@ -35,3 +34,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
