@@ -76,26 +76,5 @@ A ScrapedData instance with structured information.</li></ul>
 </li>
 </ol>
 
-<h3> Main Execution Block</h3>
-if __name__ == "__main__":
-What it does:
-<li>Sets the URL to scrape (https://www.microsoft.com/en-us/about)</li>
-<li>Initializes the scraper (Selenium or Bright Data).</li>
-<li>Runs the scraping.</li>
-<li>Prints the output in console.</li>
-<li>Saves the results as scraped_result.json.</li>
-
-<h3>Output Format (scraped_result.json)</h3>
-{
-    "url": "https://www.microsoft.com/en-us/about",
-    "company_name": "microsoft",
-    "text_content": [
-        "We empower the world",,
-        ...
-    ],
-    "links": [
-        "https://www.microsoft.com/en-us/about",
-        "https://careers.microsoft.com",
-        ...
-    ]
-}
+Along with the website extractor we have also got hacker news which provide latest news regarding the companies and their trends too.
+Other than that we have got youtube transcript and comment summarizer which works finely with the data tools.
