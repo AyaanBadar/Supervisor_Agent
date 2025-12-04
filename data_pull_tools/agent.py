@@ -1,7 +1,6 @@
 # agent.py
 import os
 from pydantic_ai import Agent
-
 # Import all tools
 from youtube_scraper_tool import generate_product_summary
 from hacker_news_tool import hn_scrape_tool
@@ -31,3 +30,4 @@ if __name__ == "__main__":
         result = await agent.run(query)
         print("\nAgent Result:\n", result.output)
     asyncio.run(main())
+
