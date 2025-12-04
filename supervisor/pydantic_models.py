@@ -1,7 +1,6 @@
 from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
 
-
 class ChatMessage(BaseModel):
     role: str  # "user" or "assistant"
     content: str
@@ -46,3 +45,4 @@ class CompanyScrapedData(BaseModel):
 
 class PiggyBank(BaseModel):
     companies: List[CompanyScrapedData]
+
