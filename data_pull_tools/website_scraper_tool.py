@@ -1,6 +1,5 @@
 import os
 os.environ["OLLAMA_HOST"] = "http://localhost:11434"
-
 import json
 import asyncio
 import httpx
@@ -186,3 +185,4 @@ async def scrape_company_website(input_data: ScraperInput) -> ScraperOutput:
         links=links,
         summary_text=summary
     )
+
